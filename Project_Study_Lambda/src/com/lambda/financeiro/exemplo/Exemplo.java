@@ -20,7 +20,6 @@ public class Exemplo {
 		faturasVencidas.forEach(f -> enviadorEmail.enviar(f.getEmailDevedor(), f.getResumo()));
 		
 		faturasVencidas.forEach(f -> {
-			
 			enviadorEmail.enviar(f.getEmailDevedor(), f.getResumo());
 			f.setNotificaoEnviada(true);
 		});
