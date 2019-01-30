@@ -35,7 +35,6 @@ public class Example1 {
 			System.out.printf("Example1: A palavra [%s] ocorreu %d vezes \n", palavra, contador);
 		}
 		
-
 	}
 	
 	public static void Example2() throws IOException {
